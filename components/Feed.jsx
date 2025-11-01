@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import varad from '@/public/images/varad.png'
 import RightSideHero from './RightSideHero'
-import Post from './shared/Post'
+import post from './shared/post'
 
 import { CiImageOn, CiVideoOn, CiCalendar } from "react-icons/ci"; //image, video, Calendar icon
 import { MdOutlineArticle } from "react-icons/md"; //article icon

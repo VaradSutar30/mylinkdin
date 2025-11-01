@@ -7,9 +7,10 @@ import { FaRegComment } from "react-icons/fa"; //comment icon
 import { RiShareForwardLine } from "react-icons/ri"; //share icon
 import { CiBookmark } from "react-icons/ci"; //bookmark icon
 import { IoIosSend } from "react-icons/io"; //send icon
-import PostImage from '@/public/images/postImage.png'
+import post from '@/public/images/post.png'
 
 const Post = () => {
+
   return (
     <div className='w-full h-fit p-5 bg-white rounded-3xl'>
 
@@ -49,7 +50,7 @@ const Post = () => {
       <p className='mb-4 text-blue-500'>#UI/UX #frontend #app-developement</p>
 
       {/* post covar image */}
-      <Image src={PostImage} alt='post image' className='w-full h-fit rounded-2xl' />
+      <Image src={post} alt='post' className='w-full h-fit rounded-2xl'/>
 
       {/* post actions */}
       <div className='mt-5 flex justify-between'>
